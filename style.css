@@ -1,0 +1,44 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:hsl(0, 2%, 9%);
+    height: 55px;
+ width: 1540px;
+    
+}
+.logo img{
+height: 45px;
+width: 120px;
+margin-left: 35px;
+margin-right: 30px;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 22px;
+    color: whitesmoke;
+    padding: 0px 10px;
+}
+a:hover{
+    color: rgb(121, 166, 214);
+}
+.main_page{
+    height: 500px;
+    width: 1540px;
+}
+.main_page img{
+    height: 600px;
+    width: 1540px;
+}
